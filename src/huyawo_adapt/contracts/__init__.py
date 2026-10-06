@@ -5,6 +5,15 @@ from huyawo_adapt.contracts.identity import (
     ModelIdentity,
     TokenizerIdentity,
 )
+from huyawo_adapt.contracts.planning import (
+    AdaptRecipe,
+    CheckpointIdentity,
+    FullSFTConfig,
+    LoRAConfig,
+    QLoRAConfig,
+    TrainingPlan,
+    TrainingRunIdentity,
+)
 from huyawo_adapt.contracts.specification import (
     AdaptationObjective,
     ComputeCapability,
@@ -18,17 +27,24 @@ from huyawo_adapt.contracts.specification import (
 
 __all__ = [
     "AdaptationObjective",
+    "AdaptRecipe",
     "ArtifactDigest",
+    "CheckpointIdentity",
     "ComputeCapability",
     "ContractModel",
     "DatasetIdentity",
     "DataSplitIdentity",
     "EvaluationProfile",
+    "FullSFTConfig",
     "HardwareTarget",
+    "LoRAConfig",
     "MetricConstraint",
     "MetricGoal",
     "ModelIdentity",
+    "QLoRAConfig",
     "RegressionProfile",
     "RuntimeTarget",
     "TokenizerIdentity",
+    "TrainingPlan",
+    "TrainingRunIdentity",
 ]
