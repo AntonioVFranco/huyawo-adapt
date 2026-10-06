@@ -5,12 +5,30 @@ from huyawo_adapt.contracts.identity import (
     ModelIdentity,
     TokenizerIdentity,
 )
+from huyawo_adapt.contracts.specification import (
+    AdaptationObjective,
+    ComputeCapability,
+    EvaluationProfile,
+    HardwareTarget,
+    MetricConstraint,
+    MetricGoal,
+    RegressionProfile,
+    RuntimeTarget,
+)
 
 __all__ = [
+    "AdaptationObjective",
     "ArtifactDigest",
+    "ComputeCapability",
     "ContractModel",
-    "DataSplitIdentity",
     "DatasetIdentity",
+    "DataSplitIdentity",
+    "EvaluationProfile",
+    "HardwareTarget",
+    "MetricConstraint",
+    "MetricGoal",
     "ModelIdentity",
+    "RegressionProfile",
+    "RuntimeTarget",
     "TokenizerIdentity",
 ]
