@@ -11,6 +11,11 @@ import json
 from dataclasses import dataclass
 from typing import Final, Literal
 
+from huyawo_adapt.agentic.verifier.durable_replay import (
+    DurableReplayStore,
+    DurableReplayUnavailableError,
+)
+
 LOCAL_AUTHORITY: Final[Literal["LOCAL_SYNTHETIC_NONPROMOTING"]] = "LOCAL_SYNTHETIC_NONPROMOTING"
 
 
@@ -73,6 +78,7 @@ class LocalSyntheticHarness:
         verifier_available: bool = True,
         capture_available: bool = True,
         issuer_fresh: bool = True,
+        replay_store: DurableReplayStore | None = None,
     ) -> None:
         values = (
             task_id,
@@ -88,6 +94,8 @@ class LocalSyntheticHarness:
             type(flag) is not bool for flag in (verifier_available, capture_available, issuer_fresh)
         ):
             raise TypeError("availability flags must be exact booleans")
+        if replay_store is not None and type(replay_store) is not DurableReplayStore:
+            raise TypeError("replay_store must be an explicit DurableReplayStore")
         self._task_id = task_id
         self._episode_id = episode_id
         self._issuer_id = issuer_id
@@ -103,6 +111,7 @@ class LocalSyntheticHarness:
         self._counter = 0
         self._issued: dict[str, PublicChallenge] = {}
         self._used: set[str] = set()
+        self._replay_store = replay_store
 
     @property
     def local_fixture_fingerprint(self) -> str:
@@ -119,6 +128,11 @@ class LocalSyntheticHarness:
         )
 
     def issue(self) -> PublicChallenge:
+        if self._replay_store is not None:
+            nonce = self._replay_store.issue(
+                self._task_id, self._episode_id, self._issuer_id, self._baseline_digest
+            )
+            return PublicChallenge(self._task_id, self._episode_id, nonce, self._issuer_id)
         self._counter += 1
         nonce = _fingerprint(
             (
@@ -161,12 +175,33 @@ class LocalSyntheticHarness:
             return self._result("blocked", "verifier_unavailable_or_stale")
         if not self._capture_available:
             return self._result("blocked", "capture_unavailable")
-        if submission.nonce not in self._issued:
-            return self._result("rejected", "unknown_nonce")
-        if submission.nonce in self._used:
-            return self._result("rejected", "nonce_replayed")
-        self._used.add(submission.nonce)
-        challenge = self._issued[submission.nonce]
+        if self._replay_store is not None:
+            try:
+                consumed = self._replay_store.consume(
+                    submission.nonce,
+                    self._task_id,
+                    self._episode_id,
+                    self._issuer_id,
+                    self._baseline_digest,
+                )
+            except DurableReplayUnavailableError:
+                return self._result("blocked", "replay_store_unavailable")
+            if consumed == "unknown":
+                return self._result("rejected", "unknown_nonce")
+            if consumed == "replayed":
+                return self._result("rejected", "nonce_replayed")
+            if consumed == "binding_conflict":
+                return self._result("rejected", "identity_binding_conflict")
+            challenge = PublicChallenge(
+                self._task_id, self._episode_id, submission.nonce, self._issuer_id
+            )
+        else:
+            if submission.nonce not in self._issued:
+                return self._result("rejected", "unknown_nonce")
+            if submission.nonce in self._used:
+                return self._result("rejected", "nonce_replayed")
+            self._used.add(submission.nonce)
+            challenge = self._issued[submission.nonce]
         if (
             type(submission.task_id) is not str
             or type(submission.episode_id) is not str
