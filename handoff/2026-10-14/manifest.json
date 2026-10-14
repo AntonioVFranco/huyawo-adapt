@@ -1,0 +1,1175 @@
+{
+  "archive_sha256": "5a440c6d243f5af346e79bef43e43225987b1be6db0c2738f599cc2a280c5132",
+  "catalog": [
+    {
+      "bytes": 309,
+      "path": ".gitignore",
+      "sha256": "6ce0eeeac452fc1e2986cc491ddab96ab1080025b209c8f2386fe247c1a7d47a",
+      "type": "file"
+    },
+    {
+      "bytes": 2023,
+      "path": "environment/PREFLIGHT.md",
+      "sha256": "f8aeff37082f0900b5c1c0525ec208836c3b12851314931cd30f405ea7c951c4",
+      "type": "file"
+    },
+    {
+      "bytes": 474,
+      "path": "environment/SHA256SUMS",
+      "sha256": "95ec977bb4f947346e6749fa4847297e32e6e913a6f02a84af0a5d27eb625d13",
+      "type": "file"
+    },
+    {
+      "bytes": 324,
+      "path": "environment/kernel-spec.json",
+      "sha256": "8e56f83f8cdb62dd32b697d6ea16cd90a20339bef5d321536c0d915a5dc4bef9",
+      "type": "file"
+    },
+    {
+      "bytes": 2115,
+      "path": "environment/pip-freeze.txt",
+      "sha256": "10c3015072eced57532829f98c553eca3ce9825508289bf65ed9343bc089918e",
+      "type": "file"
+    },
+    {
+      "bytes": 1281565,
+      "path": "environment/pip-inspect.json",
+      "sha256": "44239809b995e633b2f8956bcef23cc6102a270baca75909ae4bb0942e19191b",
+      "type": "file"
+    },
+    {
+      "bytes": 310,
+      "path": "environment/requirements.lock.txt",
+      "sha256": "e04bf5b7ddb2ade899a91e26e8d5b20c0a1d6fd2c5cf8d60abda1922d91977d1",
+      "type": "file"
+    },
+    {
+      "bytes": 1033,
+      "path": "pyproject.toml",
+      "sha256": "cbc8e6b19845b481f46a887e3b20835b89c2100351e6062b15f1c6aad43d6daf",
+      "type": "file"
+    },
+    {
+      "bytes": 16384,
+      "path": "runs/local-synthetic-replay/haa23-20261010-qual-d01-877ffe6c/replay.sqlite3",
+      "sha256": "f78e53b5269aec93d88d36938bc9f0a0d63600629edc1809a528ea5aec3d73ed",
+      "type": "file"
+    },
+    {
+      "bytes": 16384,
+      "path": "runs/local-synthetic-replay/haa23-20261010-qual-d02-1c042119/replay.sqlite3",
+      "sha256": "0a15edd67f7eaef35bfd5b1577984bfb27e2bcfb5dce9c5c2e0ce593ee164607",
+      "type": "file"
+    },
+    {
+      "bytes": 16384,
+      "path": "runs/local-synthetic-replay/haa23-20261010-qual-d03-0033c35d/replay.sqlite3",
+      "sha256": "ddf12da3feb952c8c651a1f47cdf521ca084487e8c1b233482a66840e04d30f4",
+      "type": "file"
+    },
+    {
+      "bytes": 16384,
+      "path": "runs/local-synthetic-replay/haa23-20261010-qual-d04-71966532/replay.sqlite3",
+      "sha256": "070b52685f1b24e0394423381d4b4b2a59cd7e78816deb002625c9c586fa9fbc",
+      "type": "file"
+    },
+    {
+      "bytes": 16384,
+      "path": "runs/local-synthetic-replay/haa23-20261010-qual-d05-2eb8fa58/replay.sqlite3",
+      "sha256": "a9a5bf7a8621534136139a4455d65a51ae53523b9779ade5ea5847fd38a6c244",
+      "type": "file"
+    },
+    {
+      "bytes": 16384,
+      "path": "runs/local-synthetic-replay/haa23-20261010-qual-d06-1cb66f75/replay.sqlite3",
+      "sha256": "e3a9423d9bd8bdd4d1d80fabd76c191d832ef5091cadf1656985761a0d6ff51d",
+      "type": "file"
+    },
+    {
+      "bytes": 16384,
+      "path": "runs/local-synthetic-replay/haa23-20261010-qual-d07-220dc1ef/replay.sqlite3",
+      "sha256": "a3c341081ae9f454b0899cbf6a82789ab63a089941fee2a5d76cbaa1d98c9fa9",
+      "type": "file"
+    },
+    {
+      "bytes": 16384,
+      "path": "runs/local-synthetic-replay/haa23-20261010-qual-d08-lock-ec8da1de/replay.sqlite3",
+      "sha256": "42b75b1da608991b8ea294f41b6332ff539f08140cee9056f92481d7d8c84aa8",
+      "type": "file"
+    },
+    {
+      "bytes": 16384,
+      "path": "runs/local-synthetic-replay/haa23-20261010-qual-d09-bffcce98/replay.sqlite3",
+      "sha256": "5ce30ef1143e2a1994e9606c2acfbeaae6d025ecd3edb9eef008e788e4d2fb4f",
+      "type": "file"
+    },
+    {
+      "path": "runs/local-synthetic-replay/haa23-20261010-qual-d09-link-6d0307",
+      "target": "/workspace/huyawo-agentic-adaptation",
+      "type": "symlink"
+    },
+    {
+      "bytes": 16384,
+      "path": "runs/local-synthetic-replay/haa23-20261010-qual-d10-b36d0c77/replay.sqlite3",
+      "sha256": "a4ce284db38041bb20577bef473c49f631debb041fe8213bf166267d1f9b8909",
+      "type": "file"
+    },
+    {
+      "bytes": 1242,
+      "path": "src/huyawo_adapt/__init__.py",
+      "sha256": "e46b48a13bf740a948f10ebad6509b9a78a68176c801e7bebe3f42acf2b16a1c",
+      "type": "file"
+    },
+    {
+      "bytes": 450,
+      "path": "src/huyawo_adapt/agentic/__init__.py",
+      "sha256": "19c28656dd24474e1b45c9f1702769608af8122f59d000c41880433e7fadff52",
+      "type": "file"
+    },
+    {
+      "bytes": 459,
+      "path": "src/huyawo_adapt/agentic/contracts/__init__.py",
+      "sha256": "954d28201e5046f16fecd5e6680f82c2c5457ac2cfb8093d0d395637914c35b3",
+      "type": "file"
+    },
+    {
+      "bytes": 4629,
+      "path": "src/huyawo_adapt/agentic/contracts/identity.py",
+      "sha256": "df23778257bc781571ca937a08d6b6da0c7383b7698d5df75e320493fa3b9269",
+      "type": "file"
+    },
+    {
+      "bytes": 734,
+      "path": "src/huyawo_adapt/agentic/environment/__init__.py",
+      "sha256": "360942d9e729cae0682d038364a9d71101b174d63ec8ec1d89cc3d826a0b104f",
+      "type": "file"
+    },
+    {
+      "bytes": 10100,
+      "path": "src/huyawo_adapt/agentic/environment/interface.py",
+      "sha256": "2d730fcb44c2c66df116133a606b33dbc8783119d400511c04458bc1fbb8f403",
+      "type": "file"
+    },
+    {
+      "bytes": 15721,
+      "path": "src/huyawo_adapt/agentic/environment/workspace.py",
+      "sha256": "21f8ef16a468faaadc0a5b8f9f01e1386b157dea975f1e6a0fa24d6a31414588",
+      "type": "file"
+    },
+    {
+      "bytes": 432,
+      "path": "src/huyawo_adapt/agentic/evaluation/__init__.py",
+      "sha256": "298e53bfd2fc8780b858682e01bf7b25739f943e9ba436fa41f54c33067b23c0",
+      "type": "file"
+    },
+    {
+      "bytes": 11302,
+      "path": "src/huyawo_adapt/agentic/evaluation/baseline.py",
+      "sha256": "cb210424efeaf0524ccaaeda24b4fea61b1b3df352e359a4a15492469ae18b4a",
+      "type": "file"
+    },
+    {
+      "bytes": 250,
+      "path": "src/huyawo_adapt/agentic/harness/__init__.py",
+      "sha256": "9bfb71f69ba012cb67f522d5d6da91d11522d3e8b8989d91f6646f51546abd40",
+      "type": "file"
+    },
+    {
+      "bytes": 3942,
+      "path": "src/huyawo_adapt/agentic/harness/adapter.py",
+      "sha256": "a2c8fc06693e0cd5c47fb18fbd6a037804c7f5c94ca3f38a4cf63ecc3152bb91",
+      "type": "file"
+    },
+    {
+      "bytes": 459,
+      "path": "src/huyawo_adapt/agentic/training/__init__.py",
+      "sha256": "fdd7f3d9602dcf5621c793833ba35fbcb109a4dac54ef00fdea4dee99256ec9f",
+      "type": "file"
+    },
+    {
+      "bytes": 12830,
+      "path": "src/huyawo_adapt/agentic/training/local_sft_accumulation.py",
+      "sha256": "52b7afe028c9709056fdd4ad113bca2fec4c660de9f4077ac90925520b1f4f3a",
+      "type": "file"
+    },
+    {
+      "bytes": 9236,
+      "path": "src/huyawo_adapt/agentic/training/local_sft_batch.py",
+      "sha256": "09ab48842c42dae10f5e01c54163ab39f2a57eb2626649428c34c3b89363a3a0",
+      "type": "file"
+    },
+    {
+      "bytes": 10078,
+      "path": "src/huyawo_adapt/agentic/training/local_sft_gradient_step.py",
+      "sha256": "10e0232b60bca8e493fdeeb5c839c692fe7d7b630b856ad09d2365fd1ff0a2fa",
+      "type": "file"
+    },
+    {
+      "bytes": 6300,
+      "path": "src/huyawo_adapt/agentic/training/local_sft_loss_audit.py",
+      "sha256": "64dc3f7fc11248276ffa8ef742532270aca86a01df058abfc2f541c9ca7dc704",
+      "type": "file"
+    },
+    {
+      "bytes": 5285,
+      "path": "src/huyawo_adapt/agentic/training/local_sft_tensor.py",
+      "sha256": "2a4ddcd0bf19c9516c5ecc41b519b31b618e78a583776768cdde8954395ac73a",
+      "type": "file"
+    },
+    {
+      "bytes": 25180,
+      "path": "src/huyawo_adapt/agentic/training/local_sft_tiny_gradient_resume.py",
+      "sha256": "362e99c8fb01ef7f643972f20a061bb99cfce6690ea3330aa04c8ce24fc9e7dd",
+      "type": "file"
+    },
+    {
+      "bytes": 21390,
+      "path": "src/huyawo_adapt/agentic/training/local_sft_tiny_handoff_protocol.py",
+      "sha256": "4712bdcdf47b80ec92d95c34398ab36713a68b36f44bb5090f021697d841e4f5",
+      "type": "file"
+    },
+    {
+      "bytes": 15629,
+      "path": "src/huyawo_adapt/agentic/training/local_sft_tiny_model.py",
+      "sha256": "d3e96ae8552e744fa6677fa293242314f0b2c37c745b92c43b8d337b4f0ddee6",
+      "type": "file"
+    },
+    {
+      "bytes": 18627,
+      "path": "src/huyawo_adapt/agentic/training/local_sft_tiny_state_chain.py",
+      "sha256": "3378358d0f6e83179b0cddc2d70860c38c1bfc569a35830a93ac3a42425d532d",
+      "type": "file"
+    },
+    {
+      "bytes": 9600,
+      "path": "src/huyawo_adapt/agentic/training/provenance.py",
+      "sha256": "9178ebc4a7bbec7adfb0abba24c85bba97a3c42b261b543ed8e081b6519ab5b7",
+      "type": "file"
+    },
+    {
+      "bytes": 9083,
+      "path": "src/huyawo_adapt/agentic/training/sft.py",
+      "sha256": "3d6b2dd02da22bd0db38fa24e6c12f2914e719ba5cc679e95b05eef569c5becb",
+      "type": "file"
+    },
+    {
+      "bytes": 502,
+      "path": "src/huyawo_adapt/agentic/trajectory/__init__.py",
+      "sha256": "eda66fca90e6fad09859dfc29317f3ffdb4f2a2b3289ac7ee4eba00591dc5dea",
+      "type": "file"
+    },
+    {
+      "bytes": 5443,
+      "path": "src/huyawo_adapt/agentic/trajectory/schema.py",
+      "sha256": "9080ce73b9938d5daca5ba6d46089bcc768b148229549f101bb2b3fc572493b6",
+      "type": "file"
+    },
+    {
+      "bytes": 418,
+      "path": "src/huyawo_adapt/agentic/verifier/__init__.py",
+      "sha256": "9630847e9960cfdaf7236eb815f034f7e411b91469ea564b74c648ac92cd1786",
+      "type": "file"
+    },
+    {
+      "bytes": 9939,
+      "path": "src/huyawo_adapt/agentic/verifier/durable_replay.py",
+      "sha256": "52817b71e95c78bafb7142216ff0006e15efc1a052ae53f770584e1cae86a297",
+      "type": "file"
+    },
+    {
+      "bytes": 8093,
+      "path": "src/huyawo_adapt/agentic/verifier/interface.py",
+      "sha256": "01585f8b8ccf9f366f0596a767946fe8ad5e1a92e571663728a2ab1dc48e848a",
+      "type": "file"
+    },
+    {
+      "bytes": 9852,
+      "path": "src/huyawo_adapt/agentic/verifier/local_synthetic.py",
+      "sha256": "99409958c92975b123d38aea0f4cbb2deddb1a5c07aa980638b130dbf897d6fb",
+      "type": "file"
+    },
+    {
+      "bytes": 1431,
+      "path": "src/huyawo_adapt/contracts/__init__.py",
+      "sha256": "5a0304f10322df899540dc7be5afbb4a5649e37306e0207f6f8abf806c153f77",
+      "type": "file"
+    },
+    {
+      "bytes": 2035,
+      "path": "src/huyawo_adapt/contracts/base.py",
+      "sha256": "108e0a55f6f60a0b2287b39a1faeb7fe4e2e8e3984c6305839d5d34ed48ae936",
+      "type": "file"
+    },
+    {
+      "bytes": 15826,
+      "path": "src/huyawo_adapt/contracts/evidence.py",
+      "sha256": "93925a21129ebfdd3907b7cbd53bd89eafde20ae7b86fa4dc90796e8e75c95f6",
+      "type": "file"
+    },
+    {
+      "bytes": 3353,
+      "path": "src/huyawo_adapt/contracts/identity.py",
+      "sha256": "f43f12439d7cfef9b268ae059b743d1500496359006529d8f449d0492244f4a8",
+      "type": "file"
+    },
+    {
+      "bytes": 7254,
+      "path": "src/huyawo_adapt/contracts/planning.py",
+      "sha256": "0c1ca5fed31e3300e6710fddfb58ac9e09670a90a269b8096b63cabd983a355c",
+      "type": "file"
+    },
+    {
+      "bytes": 6644,
+      "path": "src/huyawo_adapt/contracts/specification.py",
+      "sha256": "5de4408e5dde301a5e2fc1276897194434ac6c0692ddaac9b55c6283af85e841",
+      "type": "file"
+    },
+    {
+      "bytes": 1181,
+      "path": "src/huyawo_adapt/datasets/__init__.py",
+      "sha256": "d7e42b18b344badc418f85dd89582070b2ea8cde1d9b6bb0981a33bf96bd68a0",
+      "type": "file"
+    },
+    {
+      "bytes": 23677,
+      "path": "src/huyawo_adapt/datasets/huggingface.py",
+      "sha256": "699bb06b4c0c650bfaf4234873399cf541bdc2160b140a62e27219f8fe66d3d1",
+      "type": "file"
+    },
+    {
+      "bytes": 14574,
+      "path": "src/huyawo_adapt/datasets/splitting.py",
+      "sha256": "50ee4db898501018f60b3dec4b5312ea57dfadd2d4f2f105b9886347742e236a",
+      "type": "file"
+    },
+    {
+      "bytes": 576,
+      "path": "src/huyawo_adapt/evaluation/__init__.py",
+      "sha256": "a9e9d2bbf035360f90f4abc7a164c4a598a281fc0ad0ce21a6258c20c91d6bb9",
+      "type": "file"
+    },
+    {
+      "bytes": 41534,
+      "path": "src/huyawo_adapt/evaluation/baseline.py",
+      "sha256": "7083566ec042a209f1f70c2183fc386d0fc317a229b836e5624b77445657de35",
+      "type": "file"
+    },
+    {
+      "bytes": 1073,
+      "path": "src/huyawo_adapt/identity/__init__.py",
+      "sha256": "13b134498fad09c4b3130f3b0b5a4d1c2cb6711eb41978f78ab2ddd84e63f024",
+      "type": "file"
+    },
+    {
+      "bytes": 21033,
+      "path": "src/huyawo_adapt/identity/huggingface.py",
+      "sha256": "87c6829b7386ddb2ca95167d94dd50b2d8e7af7b790f16533a733970b84a2974",
+      "type": "file"
+    },
+    {
+      "bytes": 35401,
+      "path": "src/huyawo_adapt/identity/huggingface_tokenizer.py",
+      "sha256": "c0a251a764f1b8e58054d5a8dbcaa7749a4b90175aa69171d85d005311f09d25",
+      "type": "file"
+    },
+    {
+      "bytes": 7050,
+      "path": "tests/agentic/contracts/test_agentic_identity.py",
+      "sha256": "009b7c72953ae8f5bd7aa43eed3496a87c754086109d7a2a73a135f14f0a588b",
+      "type": "file"
+    },
+    {
+      "bytes": 17016,
+      "path": "tests/agentic/environment/test_agentic_environment_contract.py",
+      "sha256": "bec429e105fe10cbd71b0f641e007d0dbd2a4d6687b687ea86b14fe058a73eae",
+      "type": "file"
+    },
+    {
+      "bytes": 18948,
+      "path": "tests/agentic/environment/test_stateful_workspace_environment.py",
+      "sha256": "4398b7d9b99bb5982497debd117377e23c8303455bc0b91b306cf685fb5ef752",
+      "type": "file"
+    },
+    {
+      "bytes": 14794,
+      "path": "tests/agentic/evaluation/test_scripted_agent_baseline.py",
+      "sha256": "85d3eb167242c98dcdee24b0e1d4dc81245d71f232b9b36579c09b9e8d8f6ab0",
+      "type": "file"
+    },
+    {
+      "bytes": 12655,
+      "path": "tests/agentic/harness/test_agentic_harness_adapter.py",
+      "sha256": "f2bf9674cc82b27984a67cac56a6ba1775738b3dea004af8a48cf657c0c3fe70",
+      "type": "file"
+    },
+    {
+      "bytes": 16777,
+      "path": "tests/agentic/training/test_demonstration_provenance.py",
+      "sha256": "1dd1189a4bc29a1b15d36d57686587c871b6de0f127cbf21b01aba0ba524679e",
+      "type": "file"
+    },
+    {
+      "bytes": 13343,
+      "path": "tests/agentic/training/test_local_sft_accumulation.py",
+      "sha256": "5df78e430a1c0c4ac8961f83121295e638517fb851196448625f2a3679076d20",
+      "type": "file"
+    },
+    {
+      "bytes": 10089,
+      "path": "tests/agentic/training/test_local_sft_batch.py",
+      "sha256": "4643163eeeca751987e7c8a9e04ca901c9e9fe8fe8ad45b58c974af23ecce026",
+      "type": "file"
+    },
+    {
+      "bytes": 12882,
+      "path": "tests/agentic/training/test_local_sft_gradient_step.py",
+      "sha256": "fc6d179695a0ac13834ad68cea989635d4491a110283b31a1fd4bb72026e0651",
+      "type": "file"
+    },
+    {
+      "bytes": 10218,
+      "path": "tests/agentic/training/test_local_sft_loss_audit.py",
+      "sha256": "b8e2868742e65d6047057c8e59f547e5c73045ae243503c016bec43de41b4b04",
+      "type": "file"
+    },
+    {
+      "bytes": 9537,
+      "path": "tests/agentic/training/test_local_sft_tensor.py",
+      "sha256": "6c614c34fb1cdcd5ebd79703f473ea819a060bad57ee75b68fc50716aaacc0f5",
+      "type": "file"
+    },
+    {
+      "bytes": 11884,
+      "path": "tests/agentic/training/test_local_sft_tiny_gradient_resume.py",
+      "sha256": "07ee51361f75f98528f9075702ccd16f2c2fe970a77dc61a620204b42e3ec161",
+      "type": "file"
+    },
+    {
+      "bytes": 14936,
+      "path": "tests/agentic/training/test_local_sft_tiny_handoff_protocol.py",
+      "sha256": "8e770e1d11355157b207e99317134b0c43168c4c631e016476246e6cdf20b262",
+      "type": "file"
+    },
+    {
+      "bytes": 11300,
+      "path": "tests/agentic/training/test_local_sft_tiny_model.py",
+      "sha256": "8f5cf18d0a739d4e4cb559b1db18d4fba226cb285429e27ffbeead1867ebb744",
+      "type": "file"
+    },
+    {
+      "bytes": 10365,
+      "path": "tests/agentic/training/test_local_sft_tiny_state_chain.py",
+      "sha256": "dec3fe52efafc1caf6f0c7f768b3e9b0e1399f472f5c9de8079606ca5c9ccf67",
+      "type": "file"
+    },
+    {
+      "bytes": 13631,
+      "path": "tests/agentic/training/test_trajectory_sft.py",
+      "sha256": "28bc98386446171e68cca378304cdcff961d38239edc3f40af0b9a3b7456d222",
+      "type": "file"
+    },
+    {
+      "bytes": 11204,
+      "path": "tests/agentic/trajectory/test_agentic_trajectory.py",
+      "sha256": "dc614535358e0544515b5b64f8a42687520aaff1edab2e6ecd1e96fab641caaa",
+      "type": "file"
+    },
+    {
+      "bytes": 14576,
+      "path": "tests/agentic/verifier/test_agentic_verifier_interface.py",
+      "sha256": "81d04c5323ab5c612e47a6269e30a75bc1a29901854c3fcae940ab495ad4dc46",
+      "type": "file"
+    },
+    {
+      "bytes": 12718,
+      "path": "tests/agentic/verifier/test_durable_replay.py",
+      "sha256": "c6fdc65811f0d5689c5c2cb3c92dcfd09b46e1db57ea35411e2ad6c4cc59e04c",
+      "type": "file"
+    },
+    {
+      "bytes": 6270,
+      "path": "tests/agentic/verifier/test_local_synthetic.py",
+      "sha256": "19a3053c63feb23d67c7e02aea8bcbacfcfbe4227074184f5685ed1a9c596706",
+      "type": "file"
+    },
+    {
+      "bytes": 2951,
+      "path": "tests/contracts/test_base.py",
+      "sha256": "83c463dcc28989b8715a6692bc0e65d5a64bfa5b261f465724b1fb51d8fcb363",
+      "type": "file"
+    },
+    {
+      "bytes": 15587,
+      "path": "tests/contracts/test_evidence.py",
+      "sha256": "1e7326ed228b2e486a7e0bd77634341dcc1400549398ab6df8da4452e8f59282",
+      "type": "file"
+    },
+    {
+      "bytes": 6087,
+      "path": "tests/contracts/test_identity.py",
+      "sha256": "68d34eb3b1c1718faf72f0f22df85599f3cec517dea9dff575c5b163df6a38e0",
+      "type": "file"
+    },
+    {
+      "bytes": 10990,
+      "path": "tests/contracts/test_planning.py",
+      "sha256": "91b104068f647897ad8f2f1df11f2e48f2031d506453f4a01544402e7a8c8b76",
+      "type": "file"
+    },
+    {
+      "bytes": 7331,
+      "path": "tests/contracts/test_specification.py",
+      "sha256": "a80ed5e1f6121c6ac12d830eecea1c20d939b65bbd8279168d13e0a17049d19e",
+      "type": "file"
+    },
+    {
+      "bytes": 15949,
+      "path": "tests/datasets/test_huggingface_dataset.py",
+      "sha256": "b58a23c4434e5e21876898cd7edc2755f73d6b525320fdf05c05077f043d2d76",
+      "type": "file"
+    },
+    {
+      "bytes": 9512,
+      "path": "tests/datasets/test_split_manifest.py",
+      "sha256": "a6f775ce7c83df31b5baa00bc04e3a538e2e8bc89e4564a42acb82eddff2fc89",
+      "type": "file"
+    },
+    {
+      "bytes": 34190,
+      "path": "tests/evaluation/test_baseline.py",
+      "sha256": "6cdcac6d1b9cea564fa4413e9c02919b2cd078aae2c88229cc51830c56693b09",
+      "type": "file"
+    },
+    {
+      "bytes": 13612,
+      "path": "tests/identity/test_huggingface.py",
+      "sha256": "996f89764cdbebad0bbb1734011be49e9fa55b549de33ad34e873177f008be43",
+      "type": "file"
+    },
+    {
+      "bytes": 20419,
+      "path": "tests/identity/test_huggingface_tokenizer.py",
+      "sha256": "b1aef26b68682b1226f9ab66d4cf711bea707c16af380cd883dfb48476d730cd",
+      "type": "file"
+    },
+    {
+      "bytes": 7962,
+      "path": "work/m9_qwen3_base_template_local_diagnostic_2/evidence.json",
+      "sha256": "bfda72f41b7eccdc40cb688ebe36c883331fbe54c8ad49eddef87215aefd6ea0",
+      "type": "file"
+    },
+    {
+      "bytes": 2990,
+      "path": "work/m9_qwen3_final_assistant_terminator_mask_verification_1/evidence.json",
+      "sha256": "7e097b1da6f0ee2451c345829b272bdbabc0d9dd10e5aba3e7c20abb6f1e0eab",
+      "type": "file"
+    },
+    {
+      "bytes": 1093,
+      "path": "work/m9_tokenizer_only_da87bfb608c1/evidence.json",
+      "sha256": "108d62500131198c3a29be73124a5ebfb81877f6343c81c75c01af665f5c2cc2",
+      "type": "file"
+    },
+    {
+      "bytes": 0,
+      "path": "work/m9_tokenizer_only_da87bfb608c1_recovery1/cache/.locks/models--Qwen--Qwen3-0.6B-Base/31349551d90c7606f325fe0f11bbb8bd5fa0d7c7.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "type": "file"
+    },
+    {
+      "bytes": 0,
+      "path": "work/m9_tokenizer_only_da87bfb608c1_recovery1/cache/.locks/models--Qwen--Qwen3-0.6B-Base/43c79dcb3766612b23cbed17d0a56ce63efe4e74.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "type": "file"
+    },
+    {
+      "bytes": 0,
+      "path": "work/m9_tokenizer_only_da87bfb608c1_recovery1/cache/.locks/models--Qwen--Qwen3-0.6B-Base/443909a61d429dff23010e5bddd28ff530edda00.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "type": "file"
+    },
+    {
+      "bytes": 0,
+      "path": "work/m9_tokenizer_only_da87bfb608c1_recovery1/cache/.locks/models--Qwen--Qwen3-0.6B-Base/4783fe10ac3adce15ac8f358ef5462739852c569.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "type": "file"
+    },
+    {
+      "bytes": 0,
+      "path": "work/m9_tokenizer_only_da87bfb608c1_recovery1/cache/.locks/models--Qwen--Qwen3-0.6B-Base/6a3829ee9491f36113e64df37573be81df0366f5.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "type": "file"
+    },
+    {
+      "bytes": 0,
+      "path": "work/m9_tokenizer_only_da87bfb608c1_recovery1/cache/.locks/models--Qwen--Qwen3-0.6B-Base/cbbb3133034e192527e5321b4c679154e4819ab8.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "type": "file"
+    },
+    {
+      "bytes": 191,
+      "path": "work/m9_tokenizer_only_da87bfb608c1_recovery1/cache/CACHEDIR.TAG",
+      "sha256": "f6572428f6d5e1575e73a1502895a8731f10757dfbb634909c6e154b849af91d",
+      "type": "file"
+    },
+    {
+      "bytes": 1671853,
+      "path": "work/m9_tokenizer_only_da87bfb608c1_recovery1/cache/models--Qwen--Qwen3-0.6B-Base/blobs/31349551d90c7606f325fe0f11bbb8bd5fa0d7c7",
+      "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+      "type": "file"
+    },
+    {
+      "bytes": 727,
+      "path": "work/m9_tokenizer_only_da87bfb608c1_recovery1/cache/models--Qwen--Qwen3-0.6B-Base/blobs/43c79dcb3766612b23cbed17d0a56ce63efe4e74",
+      "sha256": "504a6b58c4271583724e66584b6b7698aea18450209df6b2f7582df0e89cee59",
+      "type": "file"
+    },
+    {
+      "bytes": 7031645,
+      "path": "work/m9_tokenizer_only_da87bfb608c1_recovery1/cache/models--Qwen--Qwen3-0.6B-Base/blobs/443909a61d429dff23010e5bddd28ff530edda00",
+      "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+      "type": "file"
+    },
+    {
+      "bytes": 2776833,
+      "path": "work/m9_tokenizer_only_da87bfb608c1_recovery1/cache/models--Qwen--Qwen3-0.6B-Base/blobs/4783fe10ac3adce15ac8f358ef5462739852c569",
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+      "type": "file"
+    },
+    {
+      "bytes": 9678,
+      "path": "work/m9_tokenizer_only_da87bfb608c1_recovery1/cache/models--Qwen--Qwen3-0.6B-Base/blobs/6a3829ee9491f36113e64df37573be81df0366f5",
+      "sha256": "3c04ed3ca964ea2f6b2b5faf0dc4d31aec1cb1e8b4bcf63f402d295046b422b5",
+      "type": "file"
+    },
+    {
+      "bytes": 138,
+      "path": "work/m9_tokenizer_only_da87bfb608c1_recovery1/cache/models--Qwen--Qwen3-0.6B-Base/blobs/cbbb3133034e192527e5321b4c679154e4819ab8",
+      "sha256": "8c970692323e3ea0e9b8b0a4dca79388d31226e41f83c9fd6014804280ebf6e8",
+      "type": "file"
+    },
+    {
+      "path": "work/m9_tokenizer_only_da87bfb608c1_recovery1/cache/models--Qwen--Qwen3-0.6B-Base/snapshots/da87bfb608c14b7cf20ba1ce41287e8de496c0cd/config.json",
+      "target": "../../blobs/43c79dcb3766612b23cbed17d0a56ce63efe4e74",
+      "type": "symlink"
+    },
+    {
+      "path": "work/m9_tokenizer_only_da87bfb608c1_recovery1/cache/models--Qwen--Qwen3-0.6B-Base/snapshots/da87bfb608c14b7cf20ba1ce41287e8de496c0cd/generation_config.json",
+      "target": "../../blobs/cbbb3133034e192527e5321b4c679154e4819ab8",
+      "type": "symlink"
+    },
+    {
+      "path": "work/m9_tokenizer_only_da87bfb608c1_recovery1/cache/models--Qwen--Qwen3-0.6B-Base/snapshots/da87bfb608c14b7cf20ba1ce41287e8de496c0cd/merges.txt",
+      "target": "../../blobs/31349551d90c7606f325fe0f11bbb8bd5fa0d7c7",
+      "type": "symlink"
+    },
+    {
+      "path": "work/m9_tokenizer_only_da87bfb608c1_recovery1/cache/models--Qwen--Qwen3-0.6B-Base/snapshots/da87bfb608c14b7cf20ba1ce41287e8de496c0cd/tokenizer.json",
+      "target": "../../blobs/443909a61d429dff23010e5bddd28ff530edda00",
+      "type": "symlink"
+    },
+    {
+      "path": "work/m9_tokenizer_only_da87bfb608c1_recovery1/cache/models--Qwen--Qwen3-0.6B-Base/snapshots/da87bfb608c14b7cf20ba1ce41287e8de496c0cd/tokenizer_config.json",
+      "target": "../../blobs/6a3829ee9491f36113e64df37573be81df0366f5",
+      "type": "symlink"
+    },
+    {
+      "path": "work/m9_tokenizer_only_da87bfb608c1_recovery1/cache/models--Qwen--Qwen3-0.6B-Base/snapshots/da87bfb608c14b7cf20ba1ce41287e8de496c0cd/vocab.json",
+      "target": "../../blobs/4783fe10ac3adce15ac8f358ef5462739852c569",
+      "type": "symlink"
+    },
+    {
+      "bytes": 1253,
+      "path": "work/m9_tokenizer_only_da87bfb608c1_recovery1/cache/models--Qwen--Qwen3-0.6B-Base/trees/da87bfb608c14b7cf20ba1ce41287e8de496c0cd.json",
+      "sha256": "5aecbd5f08ef4c41ce8a16ff5ef5f0aa92c45d304dfaf86a2d84edc2c45f6b75",
+      "type": "file"
+    },
+    {
+      "bytes": 2968,
+      "path": "work/m9_tokenizer_only_da87bfb608c1_recovery1/evidence.json",
+      "sha256": "8b46002e1e3093453e10b3b71010eabea088448aeec9305dd6c3d7cb4e002acf",
+      "type": "file"
+    }
+  ],
+  "date": "2026-10-14",
+  "excluded_regenerable_directories": [
+    ".backup-auth-1gvf_5oz",
+    ".git",
+    ".ruff_cache",
+    ".venv"
+  ],
+  "excluded_sensitive_paths": [],
+  "file_count": 116,
+  "format": "tar.gz split into ordered 32 MiB parts",
+  "frozen_trl_files": {
+    "trl/chat_templates/qwen3.jinja": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+    "trl/chat_templates/qwen3_training.jinja": "1d944ff8f268b611abb296cdd24d0f51981eef1c8647ac321c3a0258f61eb6c9"
+  },
+  "installed_package_versions": [
+    {
+      "name": "accelerate",
+      "version": "1.15.0"
+    },
+    {
+      "name": "aiohappyeyeballs",
+      "version": "2.7.1"
+    },
+    {
+      "name": "aiohttp",
+      "version": "3.14.4"
+    },
+    {
+      "name": "aiosignal",
+      "version": "1.4.0"
+    },
+    {
+      "name": "annotated-doc",
+      "version": "0.0.5"
+    },
+    {
+      "name": "annotated-types",
+      "version": "0.8.0"
+    },
+    {
+      "name": "anyio",
+      "version": "4.15.1"
+    },
+    {
+      "name": "ast_serialize",
+      "version": "0.12.1"
+    },
+    {
+      "name": "asttokens",
+      "version": "3.0.2"
+    },
+    {
+      "name": "attrs",
+      "version": "26.1.0"
+    },
+    {
+      "name": "bitsandbytes",
+      "version": "0.50.2"
+    },
+    {
+      "name": "certifi",
+      "version": "2026.7.22"
+    },
+    {
+      "name": "click",
+      "version": "8.5.0"
+    },
+    {
+      "name": "comm",
+      "version": "0.2.3"
+    },
+    {
+      "name": "cuda-bindings",
+      "version": "12.9.7"
+    },
+    {
+      "name": "cuda-pathfinder",
+      "version": "1.6.0"
+    },
+    {
+      "name": "cuda-toolkit",
+      "version": "12.8.1"
+    },
+    {
+      "name": "datasets",
+      "version": "5.1.0"
+    },
+    {
+      "name": "debugpy",
+      "version": "1.8.22"
+    },
+    {
+      "name": "dill",
+      "version": "0.4.1"
+    },
+    {
+      "name": "executing",
+      "version": "2.2.1"
+    },
+    {
+      "name": "filelock",
+      "version": "3.32.3"
+    },
+    {
+      "name": "frozenlist",
+      "version": "1.8.0"
+    },
+    {
+      "name": "fsspec",
+      "version": "2026.7.0"
+    },
+    {
+      "name": "h11",
+      "version": "0.16.0"
+    },
+    {
+      "name": "hf-xet",
+      "version": "1.6.0"
+    },
+    {
+      "name": "httpcore",
+      "version": "1.0.9"
+    },
+    {
+      "name": "httpx",
+      "version": "0.28.1"
+    },
+    {
+      "name": "huggingface_hub",
+      "version": "1.33.0"
+    },
+    {
+      "name": "huyawo-adapt",
+      "version": "0.0.0.dev0"
+    },
+    {
+      "name": "idna",
+      "version": "3.20"
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0"
+    },
+    {
+      "name": "ipykernel",
+      "version": "7.4.0"
+    },
+    {
+      "name": "ipython",
+      "version": "9.17.1"
+    },
+    {
+      "name": "ipython_pygments_lexers",
+      "version": "1.1.1"
+    },
+    {
+      "name": "jedi",
+      "version": "0.20.0"
+    },
+    {
+      "name": "Jinja2",
+      "version": "3.1.6"
+    },
+    {
+      "name": "jupyter_client",
+      "version": "8.10.0"
+    },
+    {
+      "name": "jupyter_core",
+      "version": "5.9.1"
+    },
+    {
+      "name": "librt",
+      "version": "0.16.0"
+    },
+    {
+      "name": "markdown-it-py",
+      "version": "4.2.0"
+    },
+    {
+      "name": "MarkupSafe",
+      "version": "3.0.3"
+    },
+    {
+      "name": "matplotlib-inline",
+      "version": "0.2.2"
+    },
+    {
+      "name": "mdurl",
+      "version": "0.1.2"
+    },
+    {
+      "name": "mpmath",
+      "version": "1.3.0"
+    },
+    {
+      "name": "multidict",
+      "version": "6.9.1"
+    },
+    {
+      "name": "multiprocess",
+      "version": "0.70.19"
+    },
+    {
+      "name": "mypy",
+      "version": "2.4.0"
+    },
+    {
+      "name": "mypy_extensions",
+      "version": "1.1.0"
+    },
+    {
+      "name": "nest-asyncio2",
+      "version": "1.7.3"
+    },
+    {
+      "name": "networkx",
+      "version": "3.6.1"
+    },
+    {
+      "name": "numpy",
+      "version": "2.5.3"
+    },
+    {
+      "name": "nvidia-cublas-cu12",
+      "version": "12.8.4.1"
+    },
+    {
+      "name": "nvidia-cuda-cupti-cu12",
+      "version": "12.8.90"
+    },
+    {
+      "name": "nvidia-cuda-nvrtc-cu12",
+      "version": "12.8.93"
+    },
+    {
+      "name": "nvidia-cuda-runtime-cu12",
+      "version": "12.8.90"
+    },
+    {
+      "name": "nvidia-cudnn-cu12",
+      "version": "9.19.0.56"
+    },
+    {
+      "name": "nvidia-cufft-cu12",
+      "version": "11.3.3.83"
+    },
+    {
+      "name": "nvidia-cufile-cu12",
+      "version": "1.13.1.3"
+    },
+    {
+      "name": "nvidia-curand-cu12",
+      "version": "10.3.9.90"
+    },
+    {
+      "name": "nvidia-cusolver-cu12",
+      "version": "11.7.3.90"
+    },
+    {
+      "name": "nvidia-cusparse-cu12",
+      "version": "12.5.8.93"
+    },
+    {
+      "name": "nvidia-cusparselt-cu12",
+      "version": "0.7.1"
+    },
+    {
+      "name": "nvidia-nccl-cu12",
+      "version": "2.28.9"
+    },
+    {
+      "name": "nvidia-nvjitlink-cu12",
+      "version": "12.8.93"
+    },
+    {
+      "name": "nvidia-nvshmem-cu12",
+      "version": "3.4.5"
+    },
+    {
+      "name": "nvidia-nvtx-cu12",
+      "version": "12.8.90"
+    },
+    {
+      "name": "packaging",
+      "version": "26.3"
+    },
+    {
+      "name": "pandas",
+      "version": "3.0.6"
+    },
+    {
+      "name": "parso",
+      "version": "0.8.7"
+    },
+    {
+      "name": "pathspec",
+      "version": "1.1.1"
+    },
+    {
+      "name": "peft",
+      "version": "0.21.2"
+    },
+    {
+      "name": "pexpect",
+      "version": "4.9.0"
+    },
+    {
+      "name": "pip",
+      "version": "26.2.1"
+    },
+    {
+      "name": "platformdirs",
+      "version": "4.12.3"
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0"
+    },
+    {
+      "name": "prompt_toolkit",
+      "version": "3.0.53"
+    },
+    {
+      "name": "propcache",
+      "version": "0.5.4"
+    },
+    {
+      "name": "psutil",
+      "version": "7.2.2"
+    },
+    {
+      "name": "ptyprocess",
+      "version": "0.7.0"
+    },
+    {
+      "name": "pure_eval",
+      "version": "0.2.4"
+    },
+    {
+      "name": "pyarrow",
+      "version": "25.0.1"
+    },
+    {
+      "name": "pydantic",
+      "version": "2.13.5"
+    },
+    {
+      "name": "pydantic_core",
+      "version": "2.46.5"
+    },
+    {
+      "name": "Pygments",
+      "version": "2.21.0"
+    },
+    {
+      "name": "pytest",
+      "version": "9.1.1"
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.9.0.post0"
+    },
+    {
+      "name": "PyYAML",
+      "version": "6.0.3"
+    },
+    {
+      "name": "pyzmq",
+      "version": "27.2.0"
+    },
+    {
+      "name": "regex",
+      "version": "2026.9.29"
+    },
+    {
+      "name": "rich",
+      "version": "15.0.0"
+    },
+    {
+      "name": "ruff",
+      "version": "0.16.10"
+    },
+    {
+      "name": "safetensors",
+      "version": "0.8.0"
+    },
+    {
+      "name": "setuptools",
+      "version": "78.1.0"
+    },
+    {
+      "name": "shellingham",
+      "version": "1.5.4"
+    },
+    {
+      "name": "six",
+      "version": "1.17.0"
+    },
+    {
+      "name": "stack-data",
+      "version": "0.6.3"
+    },
+    {
+      "name": "sympy",
+      "version": "1.14.0"
+    },
+    {
+      "name": "tokenizers",
+      "version": "0.23.2"
+    },
+    {
+      "name": "torch",
+      "version": "2.11.0+cu128"
+    },
+    {
+      "name": "tornado",
+      "version": "6.5.10"
+    },
+    {
+      "name": "tqdm",
+      "version": "4.70.1"
+    },
+    {
+      "name": "traitlets",
+      "version": "5.16.1"
+    },
+    {
+      "name": "transformers",
+      "version": "5.18.0"
+    },
+    {
+      "name": "triton",
+      "version": "3.6.0"
+    },
+    {
+      "name": "trl",
+      "version": "1.14.1"
+    },
+    {
+      "name": "typer",
+      "version": "0.27.2"
+    },
+    {
+      "name": "typing-inspection",
+      "version": "0.4.4"
+    },
+    {
+      "name": "typing_extensions",
+      "version": "4.16.0"
+    },
+    {
+      "name": "wcwidth",
+      "version": "0.9.2"
+    },
+    {
+      "name": "wheel",
+      "version": "0.48.0"
+    },
+    {
+      "name": "xxhash",
+      "version": "4.0.1"
+    },
+    {
+      "name": "yarl",
+      "version": "1.25.1"
+    }
+  ],
+  "notes": "No secrets, .git, or .venv binaries are contained in the archive. Canonical RFCs, design plan, and context are independently saved in Google Drive.",
+  "original_git_head": "c17bdfe7be35a6362143e6a516b419d7281ef2bc",
+  "part_count": 1,
+  "parts": [
+    {
+      "bytes": 4314520,
+      "file": "project-state.tar.gz.part000",
+      "sha256": "5a440c6d243f5af346e79bef43e43225987b1be6db0c2738f599cc2a280c5132"
+    }
+  ],
+  "regular_file_bytes": 13748942,
+  "remote_head_before": "c17bdfe7be35a6362143e6a516b419d7281ef2bc",
+  "repo": "AntonioVFranco/huyawo-adapt"
+}
